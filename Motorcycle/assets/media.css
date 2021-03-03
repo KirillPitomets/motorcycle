@@ -1,0 +1,713 @@
+/*1230px*/
+@media (max-width: 1230px) {
+
+    
+    .nav__icon {
+        display: none;
+        font-size: 13px;
+        padding: 15px 0 0 500px;
+    }
+
+    .intro__title {
+        font-size: 90px;
+    }
+
+    .intro__content {
+        left: 6.3%;
+        bottom: -78%;
+    }
+
+    .intro__content img {
+        width: 60%;
+    }
+
+    .spl__left {
+        left: 0;
+    }
+    
+    .spl__right {
+        left: 0;
+    }
+}
+    /*1024px*/
+@media (max-width: 1024px) {
+    /* Tour Packpage */
+    .tour__content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tour__item {
+        padding: 0 25px;
+        flex: 0 0 0;
+    }
+
+    /* bout company */
+    
+    .about__moto__img {
+        top: 29px;
+    }
+
+    .about__bg__moto {
+        width: 83%;
+    }
+
+    .about__moto__img--spl  {
+        left: -50px;
+    }
+
+    /*Client test*/
+
+    .client__item__right {
+        position: relative;
+    }
+
+    .client__item__right img {
+        width: 425px;
+        position: absolute;
+        left: 2px;
+        z-index: 1;
+    }
+
+}
+    /*990px*/
+@media (max-width: 990px) {
+    /* header */
+
+    .header__logo--div img{
+        width: 85%;
+    }
+
+    .intro__title {
+        font-size: 80px; 
+    }
+
+    .intro__content {
+        bottom: -90%;
+    }
+
+    /*Tour*/
+
+    .tour__content {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .tour__item {
+        flex: 0 0 0;
+        padding: 0 15px;
+    }
+
+    .tour__item:last-child {
+        padding-top: 20px;
+    }
+    
+    /*about*/
+
+    .about__bg__moto {
+        width: 75%;
+    }
+
+    .about__moto__img {
+        display: none;
+    }
+
+    .about__title {
+        margin-left: 30px;
+    }
+    
+    .about__left__item {
+        width: 100%;
+        max-width: 600px;
+        margin: 40px 0 50px 30px;
+    }
+
+    .about__right {
+        margin: 0 30px 0 0;
+    }
+
+    .info {
+        padding: 0 20px;
+    }
+
+    .info__social {
+        margin: 60px auto 0;
+        justify-content: space-evenly;
+    }
+    
+    #btn__scroll {
+        opacity: 0.4;
+    }
+    
+    /* Clint Test */
+
+    .client__item__right {
+        margin: 0;
+    }
+
+    /* blog */
+
+    .item__title a {
+        font-size: 19px;
+    }
+
+    .item__text {
+        font-size: 15px;
+    }
+}
+    /*950px*/
+@media (max-width: 950px) {
+    /* header */
+
+    .nav__link {
+        font-size: 13px;
+    }
+}
+    /*880px*/
+@media (max-width: 880px) {
+    
+    .about__right {
+
+        max-width: 320px;
+    }
+    
+    .about__right__img {
+        max-width: 90px;
+    }
+    
+    .about__name__rank span {
+        font-size: 15px;
+    }
+    
+    .abot__right__info {
+        font-size: 16.3px;
+    }
+}
+    /*770px*/
+@media (max-width: 770px) {
+
+    /*Header*/
+    .header {
+        background: #ff0000;
+    }
+
+    .header__logo {
+        display: none;
+        width: 100%;
+        max-width: 120px;
+    }
+
+    .header.fixed {
+        padding: 30px 0;
+    }
+    
+    .header__logo--div {
+        display: none;
+    }
+
+    .nav {
+        display: none;
+
+        width: 100%;
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+
+        background: #ff0000;
+    }
+
+    .nav__link {
+        width: 62%;
+        
+        display: block;
+        margin: 0;
+        padding: 8px 20px;
+
+        float: left;
+
+    }
+
+
+
+    .nav.active {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .nav-toggle {
+        display: block;
+    }
+
+    .intro__content {
+        bottom: -50%;
+    }
+
+    /*Tour*/
+
+    .tour__item {
+        padding-top: 20px;
+    }
+
+    /*About--Left*/
+    .about__left__item {
+        margin-top: 20px;
+    }
+    
+    .about__left__content {
+        width: 92%;
+    }
+
+    .about__left__title {
+        font-size: 20px;
+    }
+
+    /*About--Right*/
+
+    .about__right {
+        top: 2%;
+ 
+    }
+
+    .about__name__rank {
+        font-size: 45px;
+    }
+
+    .about__title {
+        font-size: 57px;
+    }
+
+    
+    /*Client*/
+
+    .client__item__right {
+        margin: 0;
+    }
+
+    /*spl*/
+    
+    .spl__right {
+        margin-left: 80px;
+    }
+
+    /*section*/
+
+    .section__header {
+        left: 0;
+    }
+
+    .section__header--company {
+        left: 0;
+        padding-top: 5px;
+    }
+
+    .section__header--blog {
+        left: 0;
+        padding-top: 5px;
+    }
+
+    /*Contact*/
+
+    .contact__bg__img {
+        width: 260%;
+    }
+    /*info__social*/
+
+    .info__social {
+        max-width: 680px;
+        margin: 10px 50px 0;
+    }
+}
+    /*575px*/
+@media (max-width: 575px) {
+
+    /*Header*/
+    .title {
+        font-size: 63.16px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    /*intro*/
+    .intro__content {
+        left: 14.3%;
+        bottom: -37%;
+    }
+
+    /*about--right*/
+
+    .about__right {
+        right: -6%;
+
+        margin: -30px -30px 0 0;
+    }
+
+    .about__title {
+        font-size: 42px;
+    }
+
+    .about__left__content {
+        margin: 10px 0 0 15px;
+        width: 50%;
+    
+
+    }
+
+    .about__right__item {
+        display: block;
+    }
+
+
+    .about__right__photo {
+        display: none;
+    }
+
+
+    /*spl*/
+
+
+    .spl__item  {
+        font-size: 35px;
+    }
+
+    .spl__item--2 {
+        font-size: 45px;
+        text-align: center;
+    }
+    
+    .spl__down__text {
+        margin: -25px 0 0 24px;
+    }
+
+    .spl__down__text--2 {
+        margin: -30px 0 0 30px;
+    }
+
+    .spl__text {
+        top: 130px;
+    }
+    
+    .spl__text--right {
+        margin-left: 45px;
+    }
+
+    .spl__item--right {
+        margin-left: 0;
+    }
+
+    .section--info {
+        margin-top: 65px;
+    }
+
+    .info__social {
+        max-width: 495px;
+    }
+
+    .info__social__item {
+        margin: 4px
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .info__item {
+        padding-right: 60px;
+    }
+
+    .info__item:last-child {
+        padding: 16px;
+    }
+
+}
+    /*425px*/
+@media (max-width: 425px) {
+
+    /*heade title/text*/
+
+    .title {
+        font-size: 55px;
+    }
+
+    .text {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    /*Intro*/
+
+    .intro__title {
+        font-size: 45px;
+    }
+
+    .intro__content {
+        bottom: -60%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .intro__content img {
+        width: 126%;
+
+    }
+    /*Header*/
+
+    .header__logo--div {
+        display: none;
+    }
+
+
+    /*about*/
+
+    .about__title {
+        font-size: 31px;
+        margin-left: 15px;
+    }
+
+    .about__left__item {
+        margin-left: 10px;
+    }
+
+    .about__left__content {
+        font-size: 13px;
+        width: 60%;
+    }
+
+    /*about--Right*/
+
+    .about__right {
+        top: 18%;
+        right: -22%;
+    }
+    
+    .about__name__rank {
+        font-size: 35px;
+    }
+
+    .abot__right__info {
+        font-size: 13px;
+    }
+
+    /*Company*/
+    
+    .client__item--left {
+        left: -16%;
+    }
+
+    /*spl*/
+
+    .spl__content {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    
+    .spl__title {
+        justify-content: left;
+        margin: 10px;
+        padding: 0
+    }
+
+    .spl__text {
+        width: 45%;
+    }
+
+    .spl__left {
+        top: 70px;
+    }
+    
+
+    /*spl__right*/
+
+    .spl__right {
+        top: -130px;
+        left: 137px;
+    }
+
+    /*info*/
+
+    .info {
+        justify-content: left;
+    }
+
+    .info__item {
+        padding: 10px 0 0 15px;
+    }
+
+    .info__item--2 {
+        padding-left: 26px;
+    }
+
+    .info__social {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+    .info__all {
+        margin-left: 70px;
+    }
+}
+
+    /*375px*/
+@media (max-width: 375px) {
+    /*Tour__item*/
+    .tour__item {
+        padding-left: 27px;
+        padding-right: 25px;
+    }
+
+    .item__title a {
+        font-size: 20px;
+    }
+
+    .item__text {
+        font-size: 16px;
+    }
+
+    .item__btn a {
+        font-size: 18px;
+    }
+
+    /*about*/
+
+    .about__right {
+        right: -30%;
+    }
+
+    .about__title {
+        font-size: 27px;
+    }
+
+    .about__left__title {
+        font-size: 17px;
+    }
+
+    .about__left__content {
+        width: 51%;
+    }
+
+    .about__name__rank {
+        font-size: 25px;
+        
+    }
+    
+    .about__name__rank span {
+        top: 0;
+    }    
+
+    .abot__right__info {
+        width: 55%;
+    }
+
+    /*client*/
+
+    .client__left {
+        margin: 16px 0 0 170px;
+
+    }
+
+    .client__comment {
+        width: 50%;
+        margin: 33px 0 0 100px;
+    }
+
+    /*spl*/
+
+    .spl__title {
+        display: block;
+    }
+
+    .spl__right {
+        display: block;
+    }
+
+    .spl__item {
+        text-align: left;
+    }
+
+    .spl__item--right {
+        margin-top: -10px;
+    }
+
+    .spl__text {
+        top: 195px;
+    }
+
+    .spl__text--left {
+        left: -10px;
+    }
+
+    .spl__text--right {
+        top: 175px;
+    }
+
+    /*btn-scroll*/
+
+    #btn__scroll {
+        font-size: 35px;
+        right: 15px;
+    }
+}
+
+@media (max-width: 350px) {
+    /*tour packpage*/
+
+    .motobaike__img {
+        width: 300px;
+    }
+
+    .tag {
+        width: 50%;
+
+        bottom: -5px;
+        left: -9px;
+    }
+
+    .tag__text-top {
+        font-size: 50px;
+    }
+
+    /*about content*/
+
+    .about__name__rank {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__name__rank span {
+        top: -10px
+    }
+
+        /*right*/
+
+    .about__right {
+        right: -47%;
+    }
+
+    .abot__right__info {
+        font-size: 12px;
+        width: 122px;
+    }
+
+        /*left*/
+
+    .about__title {
+        font-size: 23px;
+    }
+
+    .about__left__title  {
+        font-size: 15px;
+    }
+    
+    .about__left__content {
+        width: 49%;
+        margin: 10px 0 0 8px;
+    }
+
+}

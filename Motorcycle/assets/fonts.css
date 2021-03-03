@@ -1,0 +1,13 @@
+@font-face {
+    font-family: BillyOhio;
+
+    src: url(./fonts/billy/Billy\ Ohio.otf);
+    src: url(./fonts/billy/Billy\ Ohio.ttf);
+}
+
+@font-face {
+    font-family: BigNoodleTitl;
+
+    src: url(./fonts/bignoodletitl/big_noodle_titling.ttf);
+    src: url(./fonts/bignoodletitl/big_noodle_titling_oblique.ttf);
+}
